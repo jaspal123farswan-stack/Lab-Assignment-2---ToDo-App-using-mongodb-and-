@@ -1,0 +1,118 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  padding: 20px;
+  color: #333;
+}
+
+/* Main Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+form input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #777;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px 15px;
+  margin-left: 8px;
+  font-size: 16px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #217dbb;
+}
+
+/* Task Section */
+h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* Task List */
+ul {
+  list-style: none;
+  max-width: 500px;
+  margin: auto;
+}
+
+li {
+  background: white;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Buttons inside tasks */
+li button {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+li button:nth-child(1) {
+  background: #f1c40f;
+  color: #333;
+}
+
+li button:nth-child(1):hover {
+  background: #d4ac0d;
+}
+
+li button:nth-child(2) {
+  background: #e74c3c;
+  color: white;
+}
+
+li button:nth-child(2):hover {
+  background: #c0392b;
+}
+
+/* Logout Link */
+a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #e74c3c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
